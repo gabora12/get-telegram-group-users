@@ -9,7 +9,7 @@ dotenv.config();
 
 if (!process.env.API_ID || !process.env.API_HASH || !process.env.GROUP_ID) {
   console.error(
-    "Please set the API_ID, API_HASH and GROUP_ID environment variables.",
+    "Please set the API_ID, API_HASH and GROUP_ID environment variables.",       
   );
   process.exit(1);
 }
